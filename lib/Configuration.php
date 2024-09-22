@@ -47,7 +47,7 @@ use MailchimpMarketing\Api\TemplateFoldersApi;
 use MailchimpMarketing\Api\TemplatesApi;
 use MailchimpMarketing\Api\VerifiedDomainsApi;
 
-class Configuration
+class Configuration extends \stdClass
 {
     private static $defaultConfiguration;
 
